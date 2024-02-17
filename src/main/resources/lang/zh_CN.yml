@@ -6,3 +6,10 @@
 Plugin-Loading: '&7正在加载 &3Oish&bEternity&8&f... &8{0}'
 Plugin-Enabled: '&8[&3Oish&bEternity&8] &b信息 &8| &6插件加载完毕.'
 Plugin-Disable: '&8[&3Oish&bEternity&8] &b信息 &8| &6插件卸载完毕.'
+
+
+
+# CreateBag 相关
+Create-Bag-successSaveInfo: '&8[&3Oish&bEternity&8] &b信息 &8| &6已成功保存 -> &a {0}&6！'
+Create-Bag-existedKey: '&8[&3Oish&bEternity&8] &b信息 &8| &6已存在ID为 &a{0} §6的物品'
+Create-Bag-airItem: '&8[&3Oish&bEternity&8] &b信息 &8| &6请不要试图保存空气, 谢谢合作'

@@ -1,2 +1,4 @@
 options:
   debug: false
+  bag_identifiers: 'OishStorageBag'
+  path_separator: 黐

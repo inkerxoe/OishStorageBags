@@ -13,7 +13,9 @@ taboolib {
             UNIVERSAL,
             METRICS,
             BUKKIT_ALL,
-            KETHER
+            KETHER,
+            NMS,
+            NMS_UTIL
         )
     }
     description {
@@ -32,8 +34,8 @@ repositories {
 dependencies {
     compileOnly("ink.ptms.core:v12004:12004:mapped")
     compileOnly("ink.ptms.core:v12004:v12004:universal")
-    // openjdk-nashorn
-    taboo(fileTree("libs/relocated-nashorn-15.4.jar"))
+    // ulid-kotlin
+    implementation("com.aallam.ulid:ulid-kotlin:1.3.0")
     compileOnly(kotlin("stdlib"))
     compileOnly(fileTree("libs"))
 }
