@@ -22,7 +22,7 @@ taboolib {
         contributors {
             name("InkerXoe")
         }
-        desc("Provides a flexible and powerful Pocket Space system for Minecraft Bukkit server")
+        desc("Provides a flexible and powerful Pocket Space system for Minecraft Bukkit Server")
     }
     version { taboolib = "6.1.0" }
 }
